@@ -10,7 +10,7 @@ from .forms import TopicForm, EntryForm
 
 def index(request):
     """学习笔记的主页"""
-    return render(request, 'learning_logs\index.html')
+    return render(request, 'learning_logs/index.html')
 
 
 @login_required
